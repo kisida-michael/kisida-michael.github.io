@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kisida-michael.github.io/static/css/main.a876cbbe.css",
+    "main.js": "/kisida-michael.github.io/static/js/main.e495ff6e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/kisida-michael.github.io/static/js/787.1ed0c42c.chunk.js",
+    "static/media/vis.png": "/kisida-michael.github.io/static/media/vis.6f7af42859d1d40f8867.png",
+    "static/media/dashboard.png": "/kisida-michael.github.io/static/media/dashboard.30c69e5066151c3fc97c.png",
+    "static/media/Resume-MichaelKisida.pdf": "/kisida-michael.github.io/static/media/Resume-MichaelKisida.3ad1aa36bffa4d2305ab.pdf",
+    "static/media/campus.jpg": "/kisida-michael.github.io/static/media/campus.2f4a908421d466e06bf5.jpg",
+    "static/media/pontem.png": "/kisida-michael.github.io/static/media/pontem.a1427efd411947fe8d69.png",
+    "static/media/headshot.jpg": "/kisida-michael.github.io/static/media/headshot.5a7b484bc7c22069c526.jpg",
+    "static/media/logo.svg": "/kisida-michael.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/kisida-michael.github.io/index.html",
+    "static/media/mk.svg": "/kisida-michael.github.io/static/media/mk.b1cf24c710d4cd8a87f8e875a441f1d0.svg",
+    "main.a876cbbe.css.map": "/kisida-michael.github.io/static/css/main.a876cbbe.css.map",
+    "main.e495ff6e.js.map": "/kisida-michael.github.io/static/js/main.e495ff6e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/kisida-michael.github.io/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a876cbbe.css",
+    "static/js/main.e495ff6e.js"
+  ]
+}
