@@ -1,0 +1,1557 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./Michael Kisida_files/css2" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Michael Kisida Portfolio">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Michael Kisida</title>
+  <script defer="" src="./Michael Kisida_files/bundle.js.download"></script><style>/*
+! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+*/
+
+html {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */ /* 3 */
+  tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font family by default.
+2. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+.container {
+  width: 100%;
+}
+@media (min-width: 640px) {
+
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+
+  .container {
+    max-width: 1536px;
+  }
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+.visible {
+  visibility: visible;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.sticky {
+  position: sticky;
+}
+.bottom-20 {
+  bottom: 5rem;
+}
+.left-20 {
+  left: 5rem;
+}
+.top-0 {
+  top: 0px;
+}
+.left-0 {
+  left: 0px;
+}
+.m-auto {
+  margin: auto;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+.ml-5 {
+  margin-left: 1.25rem;
+}
+.mr-5 {
+  margin-right: 1.25rem;
+}
+.ml-10 {
+  margin-left: 2.5rem;
+}
+.-mr-2 {
+  margin-right: -0.5rem;
+}
+.mt-10 {
+  margin-top: 2.5rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mr-2 {
+  margin-right: 0.5rem;
+}
+.mt-20 {
+  margin-top: 5rem;
+}
+.mb-20 {
+  margin-bottom: 5rem;
+}
+.mt-5 {
+  margin-top: 1.25rem;
+}
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+.flex {
+  display: flex;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.grid {
+  display: grid;
+}
+.hidden {
+  display: none;
+}
+.h-36 {
+  height: 9rem;
+}
+.h-screen {
+  height: 100vh;
+}
+.h-full {
+  height: 100%;
+}
+.h-20 {
+  height: 5rem;
+}
+.h-8 {
+  height: 2rem;
+}
+.h-16 {
+  height: 4rem;
+}
+.h-6 {
+  height: 1.5rem;
+}
+.h-\[80\%\] {
+  height: 80%;
+}
+.h-auto {
+  height: auto;
+}
+.h-\[85\%\] {
+  height: 85%;
+}
+.h-min {
+  height: min-content;
+}
+.h-\[90\%\] {
+  height: 90%;
+}
+.h-\[100\%\] {
+  height: 100%;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.min-h-full {
+  min-height: 100%;
+}
+.w-full {
+  width: 100%;
+}
+.w-1\/4 {
+  width: 25%;
+}
+.w-20 {
+  width: 5rem;
+}
+.w-screen {
+  width: 100vw;
+}
+.w-8 {
+  width: 2rem;
+}
+.w-6 {
+  width: 1.5rem;
+}
+.w-\[80\%\] {
+  width: 80%;
+}
+.w-auto {
+  width: auto;
+}
+.w-\[85\%\] {
+  width: 85%;
+}
+.w-36 {
+  width: 9rem;
+}
+.w-\[70\%\] {
+  width: 70%;
+}
+.w-\[40\%\] {
+  width: 40%;
+}
+.min-w-\[50\%\] {
+  min-width: 50%;
+}
+.max-w-\[1240px\] {
+  max-width: 1240px;
+}
+.max-w-screen-sm {
+  max-width: 640px;
+}
+.max-w-7xl {
+  max-width: 80rem;
+}
+.max-w-sm {
+  max-width: 24rem;
+}
+.max-w-\[75\%\] {
+  max-width: 75%;
+}
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+.scale-95 {
+  --tw-scale-x: .95;
+  --tw-scale-y: .95;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.scale-100 {
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.scale-50 {
+  --tw-scale-x: .5;
+  --tw-scale-y: .5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.scale-\[90\%\] {
+  --tw-scale-x: 90%;
+  --tw-scale-y: 90%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.scale-\[80\%\] {
+  --tw-scale-x: 80%;
+  --tw-scale-y: 80%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.scale-\[85\%\] {
+  --tw-scale-x: 85%;
+  --tw-scale-y: 85%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.resize {
+  resize: both;
+}
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.items-center {
+  align-items: center;
+}
+.items-baseline {
+  align-items: baseline;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.gap-10 {
+  gap: 2.5rem;
+}
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.rounded-md {
+  border-radius: 0.375rem;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.border-2 {
+  border-width: 2px;
+}
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+.bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+.bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.bg-gray-900\/80 {
+  background-color: rgb(17 24 39 / 0.8);
+}
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+.bg-blue-gray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(212 228 249 / var(--tw-bg-opacity));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-mid-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(106 159 232 / var(--tw-bg-opacity));
+}
+.bg-gray-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.bg-about-campus {
+  background-image: url(http://localhost:3000/static/media/campus.2f4a908421d466e06bf5.jpg);
+}
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+.from-custom-blue {
+  --tw-gradient-from: #45B9E6;
+  --tw-gradient-to: rgb(69 185 230 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-custom-blue\/20 {
+  --tw-gradient-from: rgb(69 185 230 / 0.2);
+  --tw-gradient-to: rgb(69 185 230 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-custom-blue\/40 {
+  --tw-gradient-from: rgb(69 185 230 / 0.4);
+  --tw-gradient-to: rgb(69 185 230 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.to-custom-purple {
+  --tw-gradient-to: #8E54E9;
+}
+.to-\[\#8E87E9\] {
+  --tw-gradient-to: #8E87E9;
+}
+.to-custom-purple\/50 {
+  --tw-gradient-to: rgb(142 84 233 / 0.5);
+}
+.to-custom-purple\/10 {
+  --tw-gradient-to: rgb(142 84 233 / 0.1);
+}
+.to-custom-purple\/20 {
+  --tw-gradient-to: rgb(142 84 233 / 0.2);
+}
+.to-custom-purple\/40 {
+  --tw-gradient-to: rgb(142 84 233 / 0.4);
+}
+.bg-cover {
+  background-size: cover;
+}
+.bg-clip-text {
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+.p-10 {
+  padding: 2.5rem;
+}
+.p-5 {
+  padding: 1.25rem;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.p-4 {
+  padding: 1rem;
+}
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.pt-2 {
+  padding-top: 0.5rem;
+}
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+.pt-4 {
+  padding-top: 1rem;
+}
+.pr-6 {
+  padding-right: 1.5rem;
+}
+.pt-10 {
+  padding-top: 2.5rem;
+}
+.pb-20 {
+  padding-bottom: 5rem;
+}
+.pb-16 {
+  padding-bottom: 4rem;
+}
+.pl-10 {
+  padding-left: 2.5rem;
+}
+.pt-8 {
+  padding-top: 2rem;
+}
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+.text-center {
+  text-align: center;
+}
+.font-inter {
+  font-family: Inter, sans-serif;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.font-black {
+  font-weight: 900;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-light {
+  font-weight: 300;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.leading-relaxed {
+  line-height: 1.625;
+}
+.text-transparent {
+  color: transparent;
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+.text-gray-100 {
+  --tw-text-opacity: 1;
+  color: rgb(243 244 246 / var(--tw-text-opacity));
+}
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+.text-mid-blue {
+  --tw-text-opacity: 1;
+  color: rgb(106 159 232 / var(--tw-text-opacity));
+}
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+.opacity-20 {
+  opacity: 0.2;
+}
+.opacity-40 {
+  opacity: 0.4;
+}
+.opacity-0 {
+  opacity: 0;
+}
+.opacity-100 {
+  opacity: 1;
+}
+.opacity-30 {
+  opacity: 0.3;
+}
+.bg-blend-overlay {
+  background-blend-mode: overlay;
+}
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-100 {
+  transition-duration: 100ms;
+}
+.duration-75 {
+  transition-duration: 75ms;
+}
+.duration-300 {
+  transition-duration: 300ms;
+}
+.duration-1000 {
+  transition-duration: 1000ms;
+}
+.ease-out {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+.ease-linear {
+  transition-timing-function: linear;
+}
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.border-gradient-br-custom-gradient-gray-900 {
+  background: linear-gradient( to right, #292e38, #292e38 ), linear-gradient(to bottom right, #45B9E6, #8E54E9);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}
+.gradient-border-2 {
+  border: 2px solid transparent;
+}
+.gradient-border-4 {
+  border: 4px solid transparent;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html{
+  overflow-x:hidden;
+  scroll-behavior: smooth;
+}
+
+.hover\:scale-105:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.hover\:bg-gray-700\/70:hover {
+  background-color: rgb(55 65 81 / 0.7);
+}
+
+.hover\:bg-gray-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-black\/10:hover {
+  background-color: rgb(0 0 0 / 0.1);
+}
+
+.hover\:bg-black\/40:hover {
+  background-color: rgb(0 0 0 / 0.4);
+}
+
+.hover\:bg-black\/50:hover {
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+.hover\:bg-gradient-to-r:hover {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-gray-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.hover\:opacity-100:hover {
+  opacity: 1;
+}
+
+.hover\:opacity-50:hover {
+  opacity: 0.5;
+}
+
+.hover\:shadow-custom-purple\/30:hover {
+  --tw-shadow-color: rgb(142 84 233 / 0.3);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.hover\:transition:hover {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.hover\:duration-300:hover {
+  transition-duration: 300ms;
+}
+
+.hover\:duration-1000:hover {
+  transition-duration: 1000ms;
+}
+
+.hover\:ease-linear:hover {
+  transition-timing-function: linear;
+}
+
+.focus\:text-mid-blue:focus {
+  --tw-text-opacity: 1;
+  color: rgb(106 159 232 / var(--tw-text-opacity));
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.focus\:ring-2:focus {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.focus\:ring-white:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(255 255 255 / var(--tw-ring-opacity));
+}
+
+.focus\:ring-offset-2:focus {
+  --tw-ring-offset-width: 2px;
+}
+
+.focus\:ring-offset-gray-800:focus {
+  --tw-ring-offset-color: #1f2937;
+}
+
+@media (min-width: 640px) {
+
+  .sm\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
+  .sm\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:w-1\/4 {
+    width: 25%;
+  }
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
+  .sm\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .sm\:pl-10 {
+    padding-left: 2.5rem;
+  }
+
+  .sm\:pl-0 {
+    padding-left: 0px;
+  }
+
+  .sm\:pb-6 {
+    padding-bottom: 1.5rem;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .md\:mx-5 {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+
+  .md\:mr-auto {
+    margin-right: auto;
+  }
+
+  .md\:ml-1 {
+    margin-left: 0.25rem;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:w-1\/4 {
+    width: 25%;
+  }
+
+  .md\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .md\:w-\[60\%\] {
+    width: 60%;
+  }
+
+  .md\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .md\:scale-\[85\%\] {
+    --tw-scale-x: 85%;
+    --tw-scale-y: 85%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .md\:scale-\[60\%\] {
+    --tw-scale-x: 60%;
+    --tw-scale-y: 60%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .md\:pl-3 {
+    padding-left: 0.75rem;
+  }
+
+  .md\:pl-10 {
+    padding-left: 2.5rem;
+  }
+
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
+  .lg\:scale-\[100\%\] {
+    --tw-scale-x: 100%;
+    --tw-scale-y: 100%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .lg\:scale-\[90\%\] {
+    --tw-scale-x: 90%;
+    --tw-scale-y: 90%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .lg\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .xl\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9pbmRleC5jc3MiLCI8bm8gc291cmNlPiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7Q0FBYyxDQUFkOzs7Q0FBYzs7QUFBZDs7O0VBQUEsc0JBQWMsRUFBZCxNQUFjO0VBQWQsZUFBYyxFQUFkLE1BQWM7RUFBZCxtQkFBYyxFQUFkLE1BQWM7RUFBZCxxQkFBYyxFQUFkLE1BQWM7QUFBQTs7QUFBZDs7RUFBQSxnQkFBYztBQUFBOztBQUFkOzs7OztDQUFjOztBQUFkO0VBQUEsZ0JBQWMsRUFBZCxNQUFjO0VBQWQsOEJBQWMsRUFBZCxNQUFjLEVBQWQsTUFBYztFQUFkLFdBQWMsRUFBZCxNQUFjO0VBQWQsNE5BQWMsRUFBZCxNQUFjO0FBQUE7O0FBQWQ7OztDQUFjOztBQUFkO0VBQUEsU0FBYyxFQUFkLE1BQWM7RUFBZCxvQkFBYyxFQUFkLE1BQWM7QUFBQTs7QUFBZDs7OztDQUFjOztBQUFkO0VBQUEsU0FBYyxFQUFkLE1BQWM7RUFBZCxjQUFjLEVBQWQsTUFBYztFQUFkLHFCQUFjLEVBQWQsTUFBYztBQUFBOztBQUFkOztDQUFjOztBQUFkO0VBQUEsaUNBQWM7QUFBQTs7QUFBZDs7Q0FBYzs7QUFBZDs7Ozs7O0VBQUEsa0JBQWM7RUFBZCxvQkFBYztBQUFBOztBQUFkOztDQUFjOztBQUFkO0VBQUEsY0FBYztFQUFkLHdCQUFjO0FBQUE7O0FBQWQ7O0NBQWM7O0FBQWQ7O0VBQUEsbUJBQWM7QUFBQTs7QUFBZDs7O0NBQWM7O0FBQWQ7Ozs7RUFBQSwrR0FBYyxFQUFkLE1BQWM7RUFBZCxjQUFjLEVBQWQsTUFBYztBQUFBOztBQUFkOztDQUFjOztBQUFkO0VBQUEsY0FBYztBQUFBOztBQUFkOztDQUFjOztBQUFkOztFQUFBLGNBQWM7RUFBZCxjQUFjO0VBQWQsa0JBQWM7RUFBZCx3QkFBYztBQUFBOztBQUFkO0VBQUEsZUFBYztBQUFBOztBQUFkO0VBQUEsV0FBYztBQUFBOztBQUFkOzs7O0NBQWM7O0FBQWQ7RUFBQSxjQUFjLEVBQWQsTUFBYztFQUFkLHFCQUFjLEVBQWQsTUFBYztFQUFkLHlCQUFjLEVBQWQsTUFBYztBQUFBOztBQUFkOzs7O0NBQWM7O0FBQWQ7Ozs7O0VBQUEsb0JBQWMsRUFBZCxNQUFjO0VBQWQsZUFBYyxFQUFkLE1BQWM7RUFBZCxvQkFBYyxFQUFkLE1BQWM7RUFBZCxvQkFBYyxFQUFkLE1BQWM7RUFBZCxjQUFjLEVBQWQsTUFBYztFQUFkLFNBQWMsRUFBZCxNQUFjO0VBQWQsVUFBYyxFQUFkLE1BQWM7QUFBQTs7QUFBZDs7Q0FBYzs7QUFBZDs7RUFBQSxvQkFBYztBQUFBOztBQUFkOzs7Q0FBYzs7QUFBZDs7OztFQUFBLDBCQUFjLEVBQWQsTUFBYztFQUFkLDZCQUFjLEVBQWQsTUFBYztFQUFkLHNCQUFjLEVBQWQsTUFBYztBQUFBOztBQUFkOztDQUFjOztBQUFkO0VBQUEsYUFBYztBQUFBOztBQUFkOztDQUFjOztBQUFkO0VBQUEsZ0JBQWM7QUFBQTs7QUFBZDs7Q0FBYzs7QUFBZDtFQUFBLHdCQUFjO0FBQUE7O0FBQWQ7O0NBQWM7O0FBQWQ7O0VBQUEsWUFBYztBQUFBOztBQUFkOzs7Q0FBYzs7QUFBZDtFQUFBLDZCQUFjLEVBQWQsTUFBYztFQUFkLG9CQUFjLEVBQWQsTUFBYztBQUFBOztBQUFkOztDQUFjOztBQUFkO0VBQUEsd0JBQWM7QUFBQTs7QUFBZDs7O0NBQWM7O0FBQWQ7RUFBQSwwQkFBYyxFQUFkLE1BQWM7RUFBZCxhQUFjLEVBQWQsTUFBYztBQUFBOztBQUFkOztDQUFjOztBQUFkO0VBQUEsa0JBQWM7QUFBQTs7QUFBZDs7Q0FBYzs7QUFBZDs7Ozs7Ozs7Ozs7OztFQUFBLFNBQWM7QUFBQTs7QUFBZDtFQUFBLFNBQWM7RUFBZCxVQUFjO0FBQUE7O0FBQWQ7RUFBQSxVQUFjO0FBQUE7O0FBQWQ7OztFQUFBLGdCQUFjO0VBQWQsU0FBYztFQUFkLFVBQWM7QUFBQTs7QUFBZDs7Q0FBYzs7QUFBZDtFQUFBLGdCQUFjO0FBQUE7O0FBQWQ7OztDQUFjOztBQUFkOztFQUFBLFVBQWMsRUFBZCxNQUFjO0VBQWQsY0FBYyxFQUFkLE1BQWM7QUFBQTs7QUFBZDs7Q0FBYzs7QUFBZDs7RUFBQSxlQUFjO0FBQUE7O0FBQWQ7O0NBQWM7QUFBZDtFQUFBLGVBQWM7QUFBQTs7QUFBZDs7OztDQUFjOztBQUFkOzs7Ozs7OztFQUFBLGNBQWMsRUFBZCxNQUFjO0VBQWQsc0JBQWMsRUFBZCxNQUFjO0FBQUE7O0FBQWQ7O0NBQWM7O0FBQWQ7O0VBQUEsZUFBYztFQUFkLFlBQWM7QUFBQTs7QUFBZDtFQUFBLHdCQUFjO0VBQWQsd0JBQWM7RUFBZCxtQkFBYztFQUFkLG1CQUFjO0VBQWQsY0FBYztFQUFkLGNBQWM7RUFBZCxjQUFjO0VBQWQsZUFBYztFQUFkLGVBQWM7RUFBZCxhQUFjO0VBQWQsYUFBYztFQUFkLGtCQUFjO0VBQWQsc0NBQWM7RUFBZCxlQUFjO0VBQWQsb0JBQWM7RUFBZCxzQkFBYztFQUFkLHVCQUFjO0VBQWQsd0JBQWM7RUFBZCxrQkFBYztFQUFkLDJCQUFjO0VBQWQsNEJBQWM7RUFBZCxzQ0FBYztFQUFkLGtDQUFjO0VBQWQsMkJBQWM7RUFBZCxzQkFBYztFQUFkLDhCQUFjO0VBQWQsWUFBYztFQUFkLGtCQUFjO0VBQWQsZ0JBQWM7RUFBZCxpQkFBYztFQUFkLGtCQUFjO0VBQWQsY0FBYztFQUFkLGdCQUFjO0VBQWQsYUFBYztFQUFkLG1CQUFjO0VBQWQscUJBQWM7RUFBZCwyQkFBYztFQUFkLHlCQUFjO0VBQWQsMEJBQWM7RUFBZCwyQkFBYztFQUFkLHVCQUFjO0VBQWQsd0JBQWM7RUFBZCx5QkFBYztFQUFkO0FBQWM7O0FBQWQ7RUFBQSx3QkFBYztFQUFkLHdCQUFjO0VBQWQsbUJBQWM7RUFBZCxtQkFBYztFQUFkLGNBQWM7RUFBZCxjQUFjO0VBQWQsY0FBYztFQUFkLGVBQWM7RUFBZCxlQUFjO0VBQWQsYUFBYztFQUFkLGFBQWM7RUFBZCxrQkFBYztFQUFkLHNDQUFjO0VBQWQsZUFBYztFQUFkLG9CQUFjO0VBQWQsc0JBQWM7RUFBZCx1QkFBYztFQUFkLHdCQUFjO0VBQWQsa0JBQWM7RUFBZCwyQkFBYztFQUFkLDRCQUFjO0VBQWQsc0NBQWM7RUFBZCxrQ0FBYztFQUFkLDJCQUFjO0VBQWQsc0JBQWM7RUFBZCw4QkFBYztFQUFkLFlBQWM7RUFBZCxrQkFBYztFQUFkLGdCQUFjO0VBQWQsaUJBQWM7RUFBZCxrQkFBYztFQUFkLGNBQWM7RUFBZCxnQkFBYztFQUFkLGFBQWM7RUFBZCxtQkFBYztFQUFkLHFCQUFjO0VBQWQsMkJBQWM7RUFBZCx5QkFBYztFQUFkLDBCQUFjO0VBQWQsMkJBQWM7RUFBZCx1QkFBYztFQUFkLHdCQUFjO0VBQWQseUJBQWM7RUFBZDtBQUFjO0FBQ2Q7RUFBQTtBQUFvQjtBQUFwQjs7RUFBQTtJQUFBO0VBQW9CO0FBQUE7QUFBcEI7O0VBQUE7SUFBQTtFQUFvQjtBQUFBO0FBQXBCOztFQUFBO0lBQUE7RUFBb0I7QUFBQTtBQUFwQjs7RUFBQTtJQUFBO0VBQW9CO0FBQUE7QUFBcEI7O0VBQUE7SUFBQTtFQUFvQjtBQUFBO0FBQ3BCO0VBQUEsa0JBQW1CO0VBQW5CLFVBQW1CO0VBQW5CLFdBQW1CO0VBQW5CLFVBQW1CO0VBQW5CLFlBQW1CO0VBQW5CLGdCQUFtQjtFQUFuQixzQkFBbUI7RUFBbkIsbUJBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUEsaUJBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsbUJBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUEsaUJBQW1CO0VBQW5CLGlCQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBLGVBQW1CO0VBQW5CLGVBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsZ0JBQW1CO0VBQW5CLGdCQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBLGlCQUFtQjtFQUFuQixpQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxpQkFBbUI7RUFBbkIsaUJBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsaUJBQW1CO0VBQW5CLGlCQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQSx1QkFBbUI7RUFBbkIsb0RBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsdUJBQW1CO0VBQW5CLCtEQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBLHNCQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBLGtCQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBLGtCQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBLGtCQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQSxrQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxrQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxrQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxrQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxrQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxrQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUEsMkJBQW1CO0VBQW5CLHFDQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBLHlDQUFtQjtFQUFuQixxQ0FBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSx5Q0FBbUI7RUFBbkIscUNBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQSw2QkFBbUI7VUFBbkI7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUEsb0JBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsbUJBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsa0JBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEscUJBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsb0JBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsb0JBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsaUJBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsb0JBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUEsaUJBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsbUJBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsZUFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxtQkFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUEsb0JBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsb0JBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsb0JBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsb0JBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsb0JBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsb0JBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsb0JBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsb0JBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsb0JBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUEsK0VBQW1CO0VBQW5CLG1HQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBLDZFQUFtQjtFQUFuQixpR0FBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSxnS0FBbUI7RUFBbkIsd0pBQW1CO0VBQW5CLGlMQUFtQjtFQUFuQix3REFBbUI7RUFBbkI7QUFBbUI7QUFBbkI7RUFBQSw0QkFBbUI7RUFBbkIsd0RBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUEsd0JBQW1CO0VBQW5CLHdEQUFtQjtFQUFuQjtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjtBQUFuQjtFQUFBO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQSw2R0FBbUI7RUFBbkIsd0NBQW1CO0VBQW5CO0FBQW1CO0FBQW5CO0VBQUE7QUFBbUI7QUFBbkI7RUFBQTtBQUFtQjs7QUFFbkI7RUFDRSxTQUFTO0VBQ1Q7O2NBRVk7RUFDWixtQ0FBbUM7RUFDbkMsa0NBQWtDO0FBQ3BDOztBQUVBO0VBQ0U7YUFDVztBQUNiOztBQUVBO0VBQ0UsaUJBQWlCO0VBQ2pCLHVCQUF1QjtBQUN6Qjs7QUFyQkE7RUFBQSxtQkNBQTtFREFBLG1CQ0FBO0VEQUE7Q0NBQTs7QURBQTtFQUFBO0NDQUE7O0FEQUE7RUFBQTtDQ0FBOztBREFBO0VBQUEsbUJDQUE7RURBQTtDQ0FBOztBREFBO0VBQUE7Q0NBQTs7QURBQTtFQUFBO0NDQUE7O0FEQUE7RUFBQTtDQ0FBOztBREFBO0VBQUE7Q0NBQTs7QURBQTtFQUFBLHFCQ0FBO0VEQUE7Q0NBQTs7QURBQTtFQUFBLHFCQ0FBO0VEQUE7Q0NBQTs7QURBQTtFQUFBLHFCQ0FBO0VEQUE7Q0NBQTs7QURBQTtFQUFBO0NDQUE7O0FEQUE7RUFBQTtDQ0FBOztBREFBO0VBQUEseUNDQUE7RURBQTtDQ0FBOztBREFBO0VBQUEsaUtDQUE7RURBQSx5SkNBQTtFREFBLGtMQ0FBO0VEQUEseURDQUE7RURBQTtDQ0FBOztBREFBO0VBQUE7Q0NBQTs7QURBQTtFQUFBO0NDQUE7O0FEQUE7RUFBQTtDQ0FBOztBREFBO0VBQUEscUJDQUE7RURBQTtDQ0FBOztBREFBO0VBQUEsK0JDQUE7RURBQTtDQ0FBOztBREFBO0VBQUEsNEdDQUE7RURBQSwwR0NBQTtFREFBO0NDQUE7O0FEQUE7RUFBQSxxQkNBQTtFREFBO0NDQUE7O0FEQUE7RUFBQTtDQ0FBOztBREFBO0VBQUE7Q0NBQTs7QURBQTs7RUFBQTtJQUFBO0dDQUE7O0VEQUE7SUFBQTtHQ0FBOztFREFBO0lBQUE7R0NBQTs7RURBQTtJQUFBO0dDQUE7O0VEQUE7SUFBQTtHQ0FBOztFREFBO0lBQUEsc0JDQUE7SURBQTtHQ0FBOztFREFBO0lBQUEsc0JDQUE7SURBQTtHQ0FBOztFREFBO0lBQUE7R0NBQTs7RURBQTtJQUFBO0dDQUE7O0VEQUE7SUFBQTtHQ0FBOztFREFBO0lBQUEsZ0JDQUE7SURBQTtHQ0FBO0NBQUE7O0FEQUE7O0VBQUE7SUFBQSxxQkNBQTtJREFBO0dDQUE7O0VEQUE7SUFBQTtHQ0FBOztFREFBO0lBQUE7R0NBQTs7RURBQTtJQUFBO0dDQUE7O0VEQUE7SUFBQTtHQ0FBOztFREFBO0lBQUE7R0NBQTs7RURBQTtJQUFBO0dDQUE7O0VEQUE7SUFBQTtHQ0FBOztFREFBO0lBQUE7R0NBQTs7RURBQTtJQUFBLGtCQ0FBO0lEQUEsa0JDQUE7SURBQTtHQ0FBOztFREFBO0lBQUEsa0JDQUE7SURBQSxrQkNBQTtJREFBO0dDQUE7O0VEQUE7SUFBQTtHQ0FBOztFREFBO0lBQUEscUJDQUE7SURBQTtHQ0FBOztFREFBO0lBQUE7R0NBQTs7RURBQTtJQUFBO0dDQUE7O0VEQUE7SUFBQSxrQkNBQTtJREFBO0dDQUE7O0VEQUE7SUFBQSxtQkNBQTtJREFBO0dDQUE7O0VEQUE7SUFBQSxnQkNBQTtJREFBO0dDQUE7O0VEQUE7SUFBQSxvQkNBQTtJREFBO0dDQUE7Q0FBQTs7QURBQTs7RUFBQTtJQUFBO0dDQUE7O0VEQUE7SUFBQSxtQkNBQTtJREFBLG1CQ0FBO0lEQUE7R0NBQTs7RURBQTtJQUFBLGtCQ0FBO0lEQUEsa0JDQUE7SURBQTtHQ0FBOztFREFBO0lBQUE7R0NBQTs7RURBQTtJQUFBO0dDQUE7O0VEQUE7SUFBQTtHQ0FBOztFREFBO0lBQUEsc0JDQUE7SURBQTtHQ0FBO0NBQUE7O0FEQUE7O0VBQUE7SUFBQTtHQ0FBO0NBQUEiLCJzb3VyY2VzQ29udGVudCI6WyJAdGFpbHdpbmQgYmFzZTtcbkB0YWlsd2luZCBjb21wb25lbnRzO1xuQHRhaWx3aW5kIHV0aWxpdGllcztcblxuYm9keSB7XG4gIG1hcmdpbjogMDtcbiAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgJ1JvYm90bycsICdPeHlnZW4nLFxuICAgICdVYnVudHUnLCAnQ2FudGFyZWxsJywgJ0ZpcmEgU2FucycsICdEcm9pZCBTYW5zJywgJ0hlbHZldGljYSBOZXVlJyxcbiAgICBzYW5zLXNlcmlmO1xuICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcbiAgLW1vei1vc3gtZm9udC1zbW9vdGhpbmc6IGdyYXlzY2FsZTtcbn1cblxuY29kZSB7XG4gIGZvbnQtZmFtaWx5OiBzb3VyY2UtY29kZS1wcm8sIE1lbmxvLCBNb25hY28sIENvbnNvbGFzLCAnQ291cmllciBOZXcnLFxuICAgIG1vbm9zcGFjZTtcbn1cblxuaHRtbHtcbiAgb3ZlcmZsb3cteDpoaWRkZW47XG4gIHNjcm9sbC1iZWhhdmlvcjogc21vb3RoO1xufVxuIixudWxsXSwic291cmNlUm9vdCI6IiJ9 */</style><style>.App {
+  text-align: center;
+  background-color: #2c3546;
+}
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9BcHAuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usa0JBQWtCO0VBQ2xCLHlCQUF5QjtBQUMzQiIsInNvdXJjZXNDb250ZW50IjpbIi5BcHAge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGJhY2tncm91bmQtY29sb3I6ICMyYzM1NDY7XG59XG5cbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>/**
+* ----------------------------------------------
+* Demo styles
+* ----------------------------------------------
+**/
+.accordion {
+   
+    
+}
+
+.accordion__item + .accordion__item {
+    
+}
+
+.accordion__button {
+   
+    
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    font-weight: bold;
+    text-align: left;
+    transition: .3s ease-in-out;
+    border: none;
+    border-radius: .25rem;
+}
+
+.accordion__button:hover {
+    transition: .3 ease-in-out;
+    color: #c7d3e2;
+    
+   
+}
+
+.accordion__button:before {
+    display: inline-block;
+    content: '';
+    height: 10px;
+    width: 10px;
+    margin-right: 12px;
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    transform: rotate(-45deg);
+}
+
+.accordion__button[aria-expanded='true']::before,
+.accordion__button[aria-selected='true']::before {
+    transform: rotate(45deg);
+}
+
+[hidden] {
+    display: none;
+}
+
+.accordion__panel {
+    background-color: #f3f4f6;
+    padding: 20px;
+    /* animation: fadein 0.35s ease-in; */
+}
+
+/* -------------------------------------------------- */
+/* ---------------- Animation part ------------------ */
+/* -------------------------------------------------- */
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jb21wb25lbnRzL2FjY29yZGlvbi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7RUFJRTtBQUNGOzs7QUFHQTs7QUFFQTs7QUFFQTs7QUFFQTs7O0lBR0ksV0FBVztJQUNYLGVBQWU7SUFDZixhQUFhO0lBQ2IsV0FBVztJQUNYLGlCQUFpQjtJQUNqQixnQkFBZ0I7SUFDaEIsMkJBQTJCO0lBQzNCLFlBQVk7SUFDWixxQkFBcUI7QUFDekI7O0FBRUE7SUFDSSwwQkFBMEI7SUFDMUIsY0FBYzs7O0FBR2xCOztBQUVBO0lBQ0kscUJBQXFCO0lBQ3JCLFdBQVc7SUFDWCxZQUFZO0lBQ1osV0FBVztJQUNYLGtCQUFrQjtJQUNsQixxQ0FBcUM7SUFDckMsb0NBQW9DO0lBQ3BDLHlCQUF5QjtBQUM3Qjs7QUFFQTs7SUFFSSx3QkFBd0I7QUFDNUI7O0FBRUE7SUFDSSxhQUFhO0FBQ2pCOztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLGFBQWE7SUFDYixxQ0FBcUM7QUFDekM7O0FBRUEsdURBQXVEO0FBQ3ZELHVEQUF1RDtBQUN2RCx1REFBdUQ7O0FBRXZEO0lBQ0k7UUFDSSxVQUFVO0lBQ2Q7O0lBRUE7UUFDSSxVQUFVO0lBQ2Q7QUFDSiIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxuKiAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tXG4qIERlbW8gc3R5bGVzXG4qIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS1cbioqL1xuLmFjY29yZGlvbiB7XG4gICBcbiAgICBcbn1cblxuLmFjY29yZGlvbl9faXRlbSArIC5hY2NvcmRpb25fX2l0ZW0ge1xuICAgIFxufVxuXG4uYWNjb3JkaW9uX19idXR0b24ge1xuICAgXG4gICAgXG4gICAgY29sb3I6ICNmZmY7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIHBhZGRpbmc6IDE4cHg7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgdGV4dC1hbGlnbjogbGVmdDtcbiAgICB0cmFuc2l0aW9uOiAuM3MgZWFzZS1pbi1vdXQ7XG4gICAgYm9yZGVyOiBub25lO1xuICAgIGJvcmRlci1yYWRpdXM6IC4yNXJlbTtcbn1cblxuLmFjY29yZGlvbl9fYnV0dG9uOmhvdmVyIHtcbiAgICB0cmFuc2l0aW9uOiAuMyBlYXNlLWluLW91dDtcbiAgICBjb2xvcjogI2M3ZDNlMjtcbiAgICBcbiAgIFxufVxuXG4uYWNjb3JkaW9uX19idXR0b246YmVmb3JlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgY29udGVudDogJyc7XG4gICAgaGVpZ2h0OiAxMHB4O1xuICAgIHdpZHRoOiAxMHB4O1xuICAgIG1hcmdpbi1yaWdodDogMTJweDtcbiAgICBib3JkZXItYm90dG9tOiAycHggc29saWQgY3VycmVudENvbG9yO1xuICAgIGJvcmRlci1yaWdodDogMnB4IHNvbGlkIGN1cnJlbnRDb2xvcjtcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgtNDVkZWcpO1xufVxuXG4uYWNjb3JkaW9uX19idXR0b25bYXJpYS1leHBhbmRlZD0ndHJ1ZSddOjpiZWZvcmUsXG4uYWNjb3JkaW9uX19idXR0b25bYXJpYS1zZWxlY3RlZD0ndHJ1ZSddOjpiZWZvcmUge1xuICAgIHRyYW5zZm9ybTogcm90YXRlKDQ1ZGVnKTtcbn1cblxuW2hpZGRlbl0ge1xuICAgIGRpc3BsYXk6IG5vbmU7XG59XG5cbi5hY2NvcmRpb25fX3BhbmVsIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjNmNGY2O1xuICAgIHBhZGRpbmc6IDIwcHg7XG4gICAgLyogYW5pbWF0aW9uOiBmYWRlaW4gMC4zNXMgZWFzZS1pbjsgKi9cbn1cblxuLyogLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gKi9cbi8qIC0tLS0tLS0tLS0tLS0tLS0gQW5pbWF0aW9uIHBhcnQgLS0tLS0tLS0tLS0tLS0tLS0tICovXG4vKiAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAqL1xuXG5Aa2V5ZnJhbWVzIGZhZGVpbiB7XG4gICAgMCUge1xuICAgICAgICBvcGFjaXR5OiAwO1xuICAgIH1cblxuICAgIDEwMCUge1xuICAgICAgICBvcGFjaXR5OiAxO1xuICAgIH1cbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */</style></head>
+  <body class="ReactModal__Body--open"><div data-react-modal-body-trap="" tabindex="0" style="position: absolute; opacity: 0;"></div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="bg-gray-50"><div class="absolute top-0 w-screen font-inter"><nav class="w-screen sticky top-0&#39; bg-gradient-to-r from-custom-blue to-[#8E87E9]"><div class="max-w-7xl mx-auto px-4 sm:px-7 lg:px-7"><div class="flex items-center justify-between h-16"><div class="flex items-center"><div class="flex-shrink-0"><img class="h-8 w-8" src="./Michael Kisida_files/mk.b1cf24c710d4cd8a87f8e875a441f1d0.svg" alt="Workflow"></div><div class="hidden md:block"><div class="ml-10 flex items-baseline space-x-4"><a href="http://localhost:3000/#" class=" hover:bg-gray-700/70 text-white px-3 py-2 rounded-md text-sm font-medium">About</a><a href="http://localhost:3000/#projects" class="text-white hover:bg-gray-700/70 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a><a href="http://localhost:3000/#skills" class="text-white hover:bg-gray-700/70 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Skills</a><a href="http://localhost:3000/#" class="text-white hover:bg-gray-700/70 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a></div></div></div><div class="-mr-2 flex md:hidden"><button type="button" class="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" aria-controls="mobile-menu" aria-expanded="false"><span class="sr-only">Open main menu</span><svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></button></div></div></div></nav></div><section class="font-inter bg-gray-900" id="about"><div class="w-full h-screen text-center"><div class="max-w-[1240px] w-full h-full mx-auto p-10 flex justify-center items-center"><div><div><h1 class=" md:text-7xl text-2xl sm:mb-6 mb-2 font-black text-transparent bg-clip-text bg-gradient-to-r from-custom-blue to-custom-purple text-center" style="opacity: 0; transform: translateY(64px) scale(1) translateZ(0px);">Michael Kisida</h1><p class="text-center md:text-xl leading-relaxed text-white font-bold" style="opacity: 0; transform: translateY(64px) scale(1) translateZ(0px);">Information Technology<br>University of Central Florida</p><p class="text-center mb-5 md:text-xl leading-relaxed text-gray-200 font-regular " style="opacity: 0; transform: translateY(64px) scale(1) translateZ(0px);">Graduation Date: December 2023</p><div class="text-center" style="opacity: 0; transform: translateY(64px) scale(1) translateZ(0px);"><a href="http://localhost:3000/static/media/Resume-MichaelKisida.3ad1aa36bffa4d2305ab.pdf" target="_blank"><button type="button" class=" inline-flex items-center px-6 py-2 border-gradient-br-custom-gradient-gray-900 hover:bg-gradient-to-r from-custom-blue to-custom-purple  gradient-border-2 rounded-full text-gray-100 text-sm font-bold">Resume</button></a></div></div></div></div></div></section><section class="pt-10 h-min font-inter pb-20 pb-16 bg-blue-gray" id="projects"><h1 class="text-center max-w-7xl mx-auto pl-10 pt-8 md:text-5xl text-2xl sm:mb-8 mb-4 text-gray-600" style="opacity: 1; transform: none;"><span class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-custom-blue to-custom-purple">PROJECT</span><span class="font-light "> EXPERIENCE</span></h1><div class=" max-w-7xl mx-auto px-10 pt-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10"><div style="opacity: 1; transform: none;"><div class=" min-h-full bg-gray-50 mx-auto max-w-sm rounded overflow-hidden shadow-lg" style="will-change: transform; transition: all 400ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"><div class="  hover:cursor-pointer"><img class="w-full" src="./Michael Kisida_files/dashboard.508c729488763de2bc77.png" alt="Dashboard"><div class="px-6 sm:px-7 lg:px-7 py-4"><div class="font-bold text-l mb-2 uppercase text-mid-blue">  Company Order Dashboard</div><p class=" text-gray-700 text-sm hidden sm:block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.</p></div><div class="px-6  pb-2"><span class="inline-block bg-gradient-to-r from-custom-blue to-custom-purple rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 uppercase">React</span><span class="inline-block bg-gradient-to-r from-custom-blue to-custom-purple rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 uppercase">Node.JS</span></div></div><div class="glare-wrapper" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; -webkit-mask-image: -webkit-radial-gradient(center, white, black); pointer-events: none;"><div class="glare" style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px; transform: rotate(0deg) translate(-50%, -50%); opacity: 0; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(142, 135, 233) 100%);"></div></div><div class="glare-wrapper" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; -webkit-mask-image: -webkit-radial-gradient(center, white, black); pointer-events: none;"><div class="glare" style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 529.627px; height: 529.627px; transform: rotate(0deg) translate(-50%, -50%); opacity: 0; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(142, 135, 233) 100%); transition: opacity 400ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s;"></div></div></div></div><div style="opacity: 1; transform: none;"><div class="min-h-full bg-gray-50 mx-auto max-w-sm rounded overflow-hidden shadow-lg" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"><div class="hover:cursor-pointer"><img class="w-full" src="./Michael Kisida_files/pontem.570189d7ef7256f093ee.png" alt="Pontem"><div class="px-6 py-4"><div class="font-bold text-l mb-2 uppercase text-mid-blue">Telehealth Company Website</div><p class="text-gray-700 text-sm hidden sm:block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.</p></div><div class="px-6  pb-2"><span class="inline-block bg-gradient-to-r from-custom-blue to-custom-purple rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 uppercase">UI</span><span class="inline-block bg-gradient-to-r from-custom-blue to-custom-purple rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 uppercase">Design</span></div></div><div class="glare-wrapper" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; -webkit-mask-image: -webkit-radial-gradient(center, white, black); pointer-events: none;"><div class="glare" style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px; transform: rotate(0deg) translate(-50%, -50%); opacity: 0; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(142, 135, 233) 100%);"></div></div><div class="glare-wrapper" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; -webkit-mask-image: -webkit-radial-gradient(center, white, black); pointer-events: none;"><div class="glare" style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 529.627px; height: 529.627px; transform: rotate(0deg) translate(-50%, -50%); opacity: 0; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(142, 135, 233) 100%);"></div></div></div></div><div style="opacity: 1; transform: none;"><div class="min-h-full bg-gray-50 mx-auto max-w-sm rounded overflow-hidden shadow-lg" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"><div class="hover:cursor-pointer"><img class="w-full" src="./Michael Kisida_files/imageprocess.b8866d83a4e33283bd1e.png" alt="Reporting Process"><div class="px-6 py-4"><div class="font-bold text-l mb-2 uppercase text-mid-blue">Reporting</div><p class="text-gray-700 text-sm hidden sm:block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.</p></div><div class="px-6  pb-2"><span class="inline-block bg-gradient-to-r from-custom-blue to-custom-purple rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 uppercase">SQL</span><span class="inline-block bg-gradient-to-r from-custom-blue to-custom-purple rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 uppercase">Report Design</span></div></div><div class="glare-wrapper" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; -webkit-mask-image: -webkit-radial-gradient(center, white, black); pointer-events: none;"><div class="glare" style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px; transform: rotate(0deg) translate(-50%, -50%); opacity: 0; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(142, 135, 233) 100%);"></div></div><div class="glare-wrapper" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; -webkit-mask-image: -webkit-radial-gradient(center, white, black); pointer-events: none;"><div class="glare" style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 529.627px; height: 529.627px; transform: rotate(0deg) translate(-50%, -50%); opacity: 0; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(142, 135, 233) 100%);"></div></div></div></div><div style="opacity: 1; transform: none;"><div class="min-h-full bg-gray-50 mx-auto max-w-sm rounded overflow-hidden shadow-lg" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"><div class="hover:cursor-pointer"><img class="w-full" src="./Michael Kisida_files/vis.6f7af42859d1d40f8867.png" alt="Vis"><div class="px-6 py-4"><div class="font-bold text-l mb-2 uppercase text-mid-blue">Electric Car Site</div><p class="text-gray-700 text-sm hidden sm:block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.</p></div><div class="px-6  pb-2"><span class="inline-block bg-gradient-to-r from-custom-blue to-custom-purple rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 uppercase">Design</span><span class="inline-block bg-gradient-to-r from-custom-blue to-custom-purple rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 uppercase">HTML</span><span class="inline-block bg-gradient-to-r from-custom-blue to-custom-purple rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 uppercase">CSS</span><span class="inline-block bg-gradient-to-r from-custom-blue to-custom-purple rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 uppercase">JS</span></div></div><div class="glare-wrapper" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; -webkit-mask-image: -webkit-radial-gradient(center, white, black); pointer-events: none;"><div class="glare" style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px; transform: rotate(0deg) translate(-50%, -50%); opacity: 0; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(142, 135, 233) 100%);"></div></div><div class="glare-wrapper" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; -webkit-mask-image: -webkit-radial-gradient(center, white, black); pointer-events: none;"><div class="glare" style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 529.627px; height: 529.627px; transform: rotate(0deg) translate(-50%, -50%); opacity: 0; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(142, 135, 233) 100%);"></div></div></div></div><div style="opacity: 1; transform: none;"><div class="min-h-full bg-gray-50 mx-auto max-w-sm rounded overflow-hidden shadow-lg" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"><div class="hover:cursor-pointer"><img class="w-full" src="./Michael Kisida_files/ToDoApp.ebf9c53e176bff8e3df9.png" alt="To Do"><div class="px-6 sm:px-7 lg:px-7 py-4"><div class="font-bold text-l mb-2 uppercase text-mid-blue">To-Do List App</div><p class="text-gray-700 text-sm hidden sm:block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.</p></div><div class="px-6  pb-2"><span class="inline-block bg-gradient-to-r from-custom-blue to-custom-purple rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 uppercase">Java</span><span class="inline-block bg-gradient-to-r from-custom-blue to-custom-purple rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 uppercase">CSS</span></div></div><div class="glare-wrapper" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; -webkit-mask-image: -webkit-radial-gradient(center, white, black); pointer-events: none;"><div class="glare" style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px; transform: rotate(0deg) translate(-50%, -50%); opacity: 0; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(142, 135, 233) 100%);"></div></div><div class="glare-wrapper" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; -webkit-mask-image: -webkit-radial-gradient(center, white, black); pointer-events: none;"><div class="glare" style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 529.627px; height: 529.627px; transform: rotate(0deg) translate(-50%, -50%); opacity: 0; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(142, 135, 233) 100%);"></div></div></div></div><div style="opacity: 1; transform: none;"><div class="min-h-full bg-gray-50 mx-auto max-w-sm rounded overflow-hidden shadow-lg" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"><div class="hover:cursor-pointer"><img class="w-full" src="./Michael Kisida_files/imageprocess.b8866d83a4e33283bd1e.png" alt="Image Process"><div class="px-6 py-4"><div class="font-bold text-l mb-2 uppercase text-mid-blue">Image Processing App</div><p class="text-gray-700 text-sm hidden sm:block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.</p></div><div class="px-6  pb-2"><span class="inline-block bg-gradient-to-r from-custom-blue to-custom-purple rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 uppercase">Python</span><span class="inline-block bg-gradient-to-r from-custom-blue to-custom-purple rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 uppercase">Image-Recognition</span></div></div><div class="glare-wrapper" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; -webkit-mask-image: -webkit-radial-gradient(center, white, black); pointer-events: none;"><div class="glare" style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px; transform: rotate(0deg) translate(-50%, -50%); opacity: 0; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(142, 135, 233) 100%);"></div></div><div class="glare-wrapper" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; -webkit-mask-image: -webkit-radial-gradient(center, white, black); pointer-events: none;"><div class="glare" style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 529.627px; height: 529.627px; transform: rotate(0deg) translate(-50%, -50%); opacity: 0; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(142, 135, 233) 100%);"></div></div></div></div></div></section><section class="font-inter bg-white pb-20" id="skills"><div class="max-w-7xl mx-auto sm:pl-10  pt-10  "><h1 class="pt-8 md:text-5xl text-2xl sm:mb-8 mb-2 text-gray-600 font-bold uppercase text-center" style="opacity: 0; transform: translateX(64px) scale(1) translateZ(0px);"><span class="text-transparent bg-clip-text bg-gradient-to-r from-custom-blue to-custom-purple">Skills</span><span class="font-light  "> and</span><span class="text-transparent bg-clip-text bg-gradient-to-r from-custom-blue to-custom-purple"> Work</span><span class="font-light  "> Experience</span></h1><h1 class="pt-8 md:text-3xl text-2xl sm:mb-8 mb-2 mt-20 text-gray-600 font-bold uppercase text-center" style="opacity: 0; transform: translateY(64px) scale(1) translateZ(0px);"><span class="text-transparent text-mid-blue">Programming</span><span class="font-light  "> Languages</span></h1><div class="max-w-[75%] flex flex-wrap mx-auto justify-center mt-10 mb-20 sm:pl-0"><div class="mb-6" style="opacity: 0; transform: translateY(64px) scale(1) translateZ(0px);"><div class="grid items-center w-36 h-36 rounded mx-2 md:mx-5 mb-2 bg-blue-gray shadow-md hover:scale-105 ease-linear duration-300 hover:shadow-custom-purple/30"><svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 109.94 124.49" class="mx-auto items-center scale-50 "><defs><style>.cls-1{fill:url(#linear-gradient);}</style><lineargradient id="linear-gradient" x1="0" y1="62.25" x2="109.94" y2="62.25" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#45b9e6"></stop><stop offset="1" stop-color="#8e87e9"></stop></lineargradient></defs><g id="Layer_1-2"><path class="cls-1" d="M89.13,26.54l-.63,7.17-.28,3.29H35.56l1.26,14h50.16l-.34,3.47-3.23,36.12-.24,2.27-28.2,7.75h0l-.03,.02-28.18-7.42-1.91-21.21h13.82l.98,10.92,15.29,4.08h.04v-.55l15.36-3.87,1.6-17.58H24.23l-3.38-38.12-.33-3.88H89.46l-.33,3.54h0ZM0,0L10.01,112.09l44.89,12.4,45.02-12.39L109.94,0H0Z"></path></g></svg></div><p class="font-bold text-l mb-2 uppercase text-center text-gray-600">HTML</p></div><div class="mb-6" style="opacity: 0; transform: translateY(64px) scale(1) translateZ(0px);"><div class="grid items-center w-36 h-36 rounded mx-2 md:mx-5 mb-2 bg-blue-gray shadow-md hover:scale-105 ease-linear duration-300 hover:shadow-custom-purple/30"><svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 110.48 125.46" class="mx-auto items-center scale-50 "><defs><style>.cls-1{fill:url(#linear-gradient);}</style><lineargradient id="linear-gradient" x1="0" y1="62.73" x2="110.48" y2="62.73" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#45b9e6"></stop><stop offset="1" stop-color="#8e87e9"></stop></lineargradient></defs><g id="Layer_1-2"><path class="cls-1" d="M89.59,25.86l-3.35,37.61h0v.67h0l-2.38,26.29-.26,2.34-28.36,7.84h0l-.02,.02-28.31-7.89-1.92-21.74h13.88l.99,11.05,15.39,4.17h0l15.44-4.22,1.63-18H40.03l-.28-3.04-.63-7.13-.33-3.83h34.75l1.26-14H21.88l-.28-3.04-.63-7.13-.33-3.83H89.92l-.33,3.86h0ZM0,0L10.05,112.88l45.12,12.58,45.24-12.63L110.48,0H0Z"></path></g></svg></div><p class="font-bold text-l mb-2 uppercase text-center text-gray-600">CSS</p></div><div class="mb-6" style="opacity: 0; transform: translateY(64px) scale(1) translateZ(0px);"><div class="grid items-center w-36 h-36 rounded mx-2 md:mx-5 mb-2 bg-blue-gray shadow-md hover:scale-105 ease-linear duration-300 hover:shadow-custom-purple/30"><svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 125 125" class="mx-auto items-center scale-50 "><defs><style>.cls-1{fill:url(#linear-gradient);}</style><lineargradient id="linear-gradient" x1="0" y1="62.5" x2="125" y2="62.5" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#45b9e6"></stop><stop offset="1" stop-color="#8e87e9"></stop></lineargradient></defs><g id="Layer_1-2"><path class="cls-1" d="M114.69,103.2c-4.07,13.92-26.76,14.37-35.83,5.18-1.92-2.16-3.12-3.3-4.26-5.79q4.82-2.77,9.51-5.49c2.55,3.92,4.9,6.07,9.14,6.95,5.75,.7,11.53-1.27,10.23-7.38-1.33-4.99-11.77-6.2-18.87-11.53-7.21-4.84-8.9-16.61-2.97-23.33,1.97-2.49,5.34-4.34,8.88-5.24,1.23-.16,2.46-.32,3.69-.48,7.08-.14,11.51,1.73,14.76,5.36,.9,.92,1.64,1.9,3.02,4.04-3.77,2.4-3.76,2.38-9.16,5.88-1.15-2.49-3.07-4.05-5.09-4.72-3.14-.95-7.1,.08-7.93,3.4-.29,1.02-.23,1.97,.23,3.67,1.27,2.9,5.54,4.17,9.38,5.93,11.03,4.47,14.76,9.27,15.67,14.98,.88,4.92-.21,8.1-.38,8.58h0Zm-48.57,3.31c-1.85,3.75-5.37,6.21-9.45,7.4-6.27,1.44-12.27,.62-16.73-2.06-2.99-1.83-5.32-4.65-6.9-7.9,3.18-1.94,6.34-3.89,9.52-5.83,.08,.04,.33,.49,.67,1.07,1.21,2.03,2.26,3.47,4.32,4.49,2.02,.69,6.46,1.13,8.18-2.43,1.05-1.81,.71-7.63,.71-14.07,0-10.12,.05-20.19,.05-30.19h11.71c0,11,.06,21.42,0,32.15,.02,6.58,.6,12.45-2.07,17.36h0ZM0,0V125H125V0H0Z"></path></g></svg></div><p class="font-bold text-l mb-2 uppercase text-center text-gray-600">JavaScript</p></div><div class="mb-6" style="opacity: 0; transform: translateY(64px) scale(1) translateZ(0px);"><div class="grid items-center w-36 h-36 rounded mx-2 md:mx-5 mb-2 bg-blue-gray shadow-md hover:scale-105 ease-linear duration-300 hover:shadow-custom-purple/30"><svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 107 120.92" class="mx-auto items-center scale-50 "><defs><style>.cls-1{fill:url(#linear-gradient-2);}.cls-2{fill:url(#linear-gradient);}</style><lineargradient id="linear-gradient" x1="16.02" y1="20.57" x2="93.36" y2="102.35" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#45b9e6"></stop><stop offset="1" stop-color="#8e87e9"></stop></lineargradient><lineargradient id="linear-gradient-2" x1="22.36" y1="14.58" x2="99.7" y2="96.36" xlink:href="#linear-gradient"></lineargradient></defs><g id="Layer_1-2"><g><path class="cls-2" d="M102.68,26.79L58.53,1.19c-2.78-1.58-6.42-1.58-9.23,0L4.82,26.79c-2.87,1.65-4.82,4.75-4.82,8.07v51.14c0,3.32,1.99,6.42,4.86,8.08l11.73,6.69c5.63,2.77,7.19,2.77,9.75,2.77,8.33,0,12.66-5.04,12.66-13.83V39.23c0-.71,.45-1.77-.26-1.77h-5.62c-.71,0-2.12,1.06-2.12,1.77v50.49c0,3.9-3.62,7.77-10.2,4.48l-12.12-7.01c-.42-.23-.67-.69-.67-1.18V34.87c0-.48,.46-.97,.89-1.21L53.27,8.09c.42-.24,1-.24,1.42,0l43.96,25.55c.42,.25,.35,.72,.35,1.22v51.14c0,.49,.09,.96-.32,1.2l-44.13,25.58c-.38,.23-.87,.23-1.29,0l-11.32-6.75c-.34-.2-.75-.27-1.08-.09-3.15,1.78-3.73,2.02-6.68,3.04-.73,.25-1.8,.69,.41,1.93l14.8,8.75c1.42,.82,3.03,1.25,4.65,1.25s3.25-.42,4.66-1.25l43.98-25.58c2.87-1.67,4.32-4.76,4.32-8.08V34.87c0-3.32-1.45-6.41-4.32-8.07h0Z"></path><path class="cls-1" d="M67.73,77.9c-11.73,0-14.31-3.24-15.17-9.07-.1-.63-.63-1.38-1.27-1.38h-5.73c-.71,0-1.28,.86-1.28,1.57,0,7.47,4.06,16.51,23.45,16.51,14.04,0,22.09-5.46,22.09-15.11s-6.47-12.08-20.08-13.89c-13.76-1.82-15.16-2.74-15.16-5.96,0-2.66,1.18-6.2,11.37-6.2,9.1,0,12.46,1.95,13.84,8.09,.12,.58,.65,.99,1.24,.99h5.75c.35,0,.69-.14,.94-.4,.24-.27,.37-.61,.34-.98-.89-10.57-7.91-15.49-22.11-15.49-12.63,0-20.17,5.33-20.17,14.28,0,9.7,7.5,12.38,19.62,13.58,14.51,1.42,15.63,3.54,15.63,6.4,0,4.96-3.98,7.07-13.31,7.07h0Z"></path></g></g></svg></div><p class="font-bold text-l mb-2 uppercase text-center text-gray-600">Node.js</p></div><div class="mb-6" style="opacity: 0; transform: translateY(64px) scale(1) translateZ(0px);"><div class="grid items-center w-36 h-36 rounded mx-2 md:mx-5 mb-2 bg-blue-gray shadow-md hover:scale-105 ease-linear duration-300 hover:shadow-custom-purple/30"><svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 139.95 124.84" class="mx-auto items-center scale-50 "><defs><style>.cls-1{fill:url(#linear-gradient-2);}.cls-2{fill:url(#linear-gradient);}</style><lineargradient id="linear-gradient" x1="27.25" y1="9.94" x2="113.13" y2="115.44" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#45b9e6"></stop><stop offset="1" stop-color="#8e87e9"></stop></lineargradient><lineargradient id="linear-gradient-2" x1="27.25" y1="9.94" x2="113.13" y2="115.43" xlink:href="#linear-gradient"></lineargradient></defs><g id="Layer_1-2"><g><path class="cls-2" d="M69.97,49.7c-7.03,0-12.72,5.7-12.72,12.72s5.7,12.72,12.72,12.72,12.72-5.7,12.72-12.72-5.7-12.72-12.72-12.72h0Z"></path><path class="cls-1" d="M116.07,77.44c-2.25,.86-4.64,1.64-7.14,2.35-1.76-5.63-4.03-11.47-6.75-17.37,2.72-5.9,4.98-11.74,6.74-17.36,15.4,4.39,24.66,11.09,24.66,17.36,0,5.31-6.38,10.78-17.52,15.02h0Zm-10.04,17.39c1.89,11.76,.34,20.03-4.25,22.68-1.11,.64-2.44,.97-3.94,.97-6.72,0-15.12-5.52-23.41-13.7,3.95-4.28,7.87-9.14,11.64-14.47,6.48-.6,12.68-1.55,18.43-2.85,.64,2.53,1.15,4.99,1.53,7.36h0Zm-67.86,22.68c-4.59-2.65-6.14-10.92-4.25-22.68,.38-2.38,.9-4.84,1.53-7.36,5.75,1.29,11.95,2.25,18.43,2.85,3.78,5.33,7.69,10.19,11.64,14.47-8.29,8.18-16.69,13.7-23.41,13.7-1.52,0-2.81-.32-3.94-.97h0ZM6.36,62.42c0-5.31,6.38-10.78,17.51-15.02,2.25-.86,4.64-1.64,7.14-2.35,1.76,5.63,4.03,11.47,6.75,17.37-2.72,5.9-4.98,11.74-6.74,17.36-15.4-4.39-24.66-11.09-24.66-17.36h0ZM33.92,30.01c-1.89-11.76-.34-20.03,4.25-22.68,1.11-.64,2.44-.97,3.94-.97,6.72,0,15.12,5.52,23.41,13.7-3.95,4.28-7.87,9.14-11.64,14.47-6.48,.6-12.68,1.55-18.43,2.85-.64-2.53-1.15-4.99-1.53-7.36h0Zm60.85,18.1c-1.32-2.29-2.68-4.51-4.06-6.68,4.27,.54,8.3,1.25,12.04,2.08-1.18,3.73-2.59,7.56-4.23,11.45-1.19-2.29-2.44-4.58-3.75-6.85h0Zm-24.79-23.4c2.63,2.9,5.21,6.01,7.7,9.26-2.54-.11-5.1-.17-7.7-.17s-5.16,.06-7.7,.17c2.48-3.25,5.07-6.36,7.7-9.26h0Zm-28.54,30.25c-1.64-3.9-3.05-7.73-4.23-11.46,3.82-.85,7.85-1.54,12.05-2.07-1.38,2.17-2.74,4.39-4.06,6.68-1.32,2.28-2.56,4.57-3.75,6.85h0Zm7.81,28.45c-4.27-.54-8.3-1.25-12.04-2.08,1.18-3.73,2.59-7.56,4.23-11.45,1.19,2.29,2.44,4.58,3.75,6.85,1.32,2.28,2.68,4.51,4.06,6.68h0Zm20.73,16.72c-2.63-2.9-5.21-6.01-7.7-9.26,2.54,.11,5.11,.17,7.7,.17s5.16-.06,7.7-.17c-2.48,3.25-5.07,6.36-7.7,9.26h0Zm28.54-30.25c1.64,3.9,3.05,7.73,4.23,11.46-3.82,.85-7.85,1.54-12.05,2.07,1.38-2.17,2.74-4.39,4.06-6.68,1.32-2.28,2.56-4.57,3.75-6.85h0Zm-9.26,3.67c-2.05,3.56-4.33,7.15-6.76,10.68-4.08,.3-8.27,.45-12.52,.45s-8.51-.16-12.52-.46c-2.43-3.52-4.7-7.12-6.76-10.67-2.14-3.7-4.11-7.43-5.9-11.13,1.79-3.7,3.76-7.43,5.9-11.13,2.05-3.56,4.33-7.15,6.76-10.68,4.08-.3,8.27-.45,12.52-.45s8.51,.16,12.52,.46c2.43,3.52,4.7,7.12,6.76,10.67,2.14,3.7,4.11,7.43,5.9,11.13-1.79,3.7-3.76,7.43-5.9,11.13h0ZM101.78,7.33c4.59,2.65,6.14,10.92,4.25,22.68-.38,2.38-.9,4.84-1.53,7.36-5.75-1.29-11.95-2.25-18.43-2.85-3.78-5.33-7.69-10.19-11.64-14.47,8.29-8.18,16.69-13.7,23.41-13.7,1.52,0,2.81,.32,3.94,.97h0Zm16.56,34.13c-2.42-.92-4.98-1.76-7.67-2.53,.68-2.71,1.24-5.35,1.65-7.91,2.37-14.72-.24-25.09-7.35-29.2-2.09-1.21-4.49-1.82-7.12-1.82-7.89,0-17.82,5.75-27.86,15.49C59.94,5.75,50.01,0,42.11,0c-2.63,0-5.03,.61-7.13,1.82-7.11,4.11-9.72,14.47-7.35,29.2,.41,2.55,.96,5.2,1.65,7.91-2.69,.76-5.25,1.61-7.67,2.53C7.68,46.77,0,54.21,0,62.42s7.68,15.66,21.61,20.96c2.42,.92,4.98,1.76,7.67,2.53-.68,2.71-1.24,5.35-1.65,7.91-2.37,14.72,.24,25.09,7.35,29.2,2.09,1.21,4.49,1.82,7.13,1.82,7.89,0,17.82-5.75,27.86-15.49,10.04,9.73,19.97,15.49,27.86,15.49,2.63,0,5.03-.61,7.12-1.82,7.11-4.1,9.72-14.47,7.35-29.2-.41-2.55-.96-5.2-1.65-7.91,2.69-.76,5.25-1.61,7.67-2.53,13.94-5.31,21.61-12.75,21.61-20.96s-7.68-15.66-21.61-20.96h0Z"></path></g></g></svg></div><p class="font-bold text-l mb-2 uppercase text-center text-gray-600">React</p></div><div class="mb-6" style="opacity: 0; transform: translateY(64px) scale(1) translateZ(0px);"><div class="grid items-center w-36 h-36 rounded mx-2 md:mx-5 mb-2 bg-blue-gray shadow-md hover:scale-105 ease-linear duration-300 hover:shadow-custom-purple/30"><svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 121.03 122.37" class="mx-auto items-center scale-50 "><defs><style>.cls-1{fill:url(#linear-gradient-2);}.cls-2{fill:url(#linear-gradient);}</style><lineargradient id="linear-gradient" x1="25.06" y1="21.16" x2="90.72" y2="98.5" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#45b9e6"></stop><stop offset="1" stop-color="#8e87e9"></stop></lineargradient><lineargradient id="linear-gradient-2" x1="27.33" y1="19.23" x2="93" y2="96.57" xlink:href="#linear-gradient"></lineargradient></defs><g id="Layer_1-2"><g><path class="cls-2" d="M44.01,20.08c-3.03,0-5.48-2.48-5.48-5.54s2.45-5.58,5.48-5.58,5.48,2.5,5.48,5.58-2.46,5.54-5.48,5.54h0Zm1.84,39.11h29.16c8.12,0,14.51-6.87,14.51-15.02V16.37c0-7.91-6.63-13.86-14.55-15.18C69.95,.36,64.77-.02,59.77,0c-4.99,.02-9.61,.45-13.8,1.19-12.36,2.18-14.45,6.75-14.45,15.18v10.82h29v4H20.29c-8.49,0-15.91,5.11-18.24,14.81-2.68,11.12-2.8,17.92,0,29.53,2.08,8.64,7.03,14.66,15.52,14.66h9.95v-13.05c0-9.64,8.43-17.95,18.33-17.95h0Z"></path><path class="cls-1" d="M76.84,101.6c3.03,0,5.48,2.48,5.48,5.55s-2.45,5.58-5.48,5.58-5.48-2.5-5.48-5.58,2.46-5.55,5.48-5.55h0Zm41.96-55.61c-2.1-8.45-6.1-14.81-14.6-14.81h-10.68v12.98c0,10.05-8.8,18.02-18.51,18.02h-29.16c-7.99,0-14.33,7.33-14.33,15.33v27.8c0,7.91,6.74,12.56,14.46,14.83,9.24,2.72,17.99,3.21,29.05,0,7.35-2.13,14.49-6.41,14.49-14.83v-11.13h-29v-4h43.68c8.48,0,11.65-5.78,14.6-14.66,3.05-9.15,2.92-17.8,0-29.53h0Z"></path></g></g></svg></div><p class="font-bold text-l mb-2 uppercase text-center text-gray-600">Python</p></div><div class="mb-6" style="opacity: 0; transform: translateY(64px) scale(1) translateZ(0px);"><div class="grid items-center w-36 h-36 rounded mx-2 md:mx-5 mb-2 bg-blue-gray shadow-md hover:scale-105 ease-linear duration-300 hover:shadow-custom-purple/30"><svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 108 123.67" class="mx-auto items-center scale-50 "><defs><style>.cls-1{fill:url(#linear-gradient);}</style><lineargradient id="linear-gradient" x1="0" y1="61.83" x2="108" y2="61.83" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#45b9e6"></stop><stop offset="1" stop-color="#8e87e9"></stop></lineargradient></defs><g id="Layer_1-2"><path class="cls-1" d="M105,63.83h-5v5h-4v-5h-6v-4h6v-5h4v5h5v4h0Zm-29.65-14c-4.21-7.45-12.2-12.5-21.35-12.5-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5c9.11,0,17.07-5,21.29-12.41l12.94,7.58c-6.83,11.84-19.61,19.83-34.23,19.83-21.78,0-39.5-17.72-39.5-39.5S32.22,22.33,54,22.33c14.68,0,27.51,8.06,34.32,19.98l-12.97,7.52h0Zm-3.35,14v-4h5v-5h5v5h5v4h-5v5h-5v-5h-5ZM107.5,31.34l.29-.17c-.58-1.09-1.53-2.07-2.43-2.59L57.12,.72c-.8-.46-1.93-.72-3.12-.72s-2.33,.26-3.12,.72L2.88,28.57c-1.66,.96-2.88,3.49-2.88,5.41v55.7c0,1.06,.24,2.3,.9,3.36l-.19,.11c.54,.82,1.21,1.53,1.92,1.94l48.24,27.85c.79,.46,1.93,.72,3.12,.72s2.33-.26,3.12-.72l48-27.85c1.66-.96,2.88-3.49,2.88-5.41V33.98c0-.83-.08-1.77-.5-2.65h0Z"></path></g></svg></div><p class="font-bold text-l mb-2 uppercase text-center text-gray-600">C++</p></div><div class="mb-6" style="opacity: 0; transform: translateY(64px) scale(1) translateZ(0px);"><div class="grid items-center w-36 h-36 rounded mx-2 md:mx-5 mb-2 bg-blue-gray shadow-md hover:scale-105 ease-linear duration-300 hover:shadow-custom-purple/30"><svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 92.06 124.83" class="mx-auto items-center scale-50 "><defs><style>.cls-1{fill:url(#linear-gradient-2);}.cls-2{fill:url(#linear-gradient-6);}.cls-3{fill:url(#linear-gradient-5);}.cls-4{fill:url(#linear-gradient-7);}.cls-5{fill:url(#linear-gradient-3);}.cls-6{fill:url(#linear-gradient);}.cls-7{fill:url(#linear-gradient-4);}.cls-8{fill:url(#linear-gradient-8);}</style><lineargradient id="linear-gradient" x1="2.85" y1="69.48" x2="78.4" y2="128.36" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#45b9e6"></stop><stop offset="1" stop-color="#8e87e9"></stop></lineargradient><lineargradient id="linear-gradient-2" x1="9.01" y1="61.57" x2="84.56" y2="120.46" xlink:href="#linear-gradient"></lineargradient><lineargradient id="linear-gradient-3" x1="35.12" y1="28.07" x2="110.68" y2="86.96" xlink:href="#linear-gradient"></lineargradient><lineargradient id="linear-gradient-4" x1="-1.98" y1="75.67" x2="73.57" y2="134.56" xlink:href="#linear-gradient"></lineargradient><lineargradient id="linear-gradient-5" x1="14.91" y1="53.99" x2="90.47" y2="112.88" xlink:href="#linear-gradient"></lineargradient><lineargradient id="linear-gradient-6" x1="26.62" y1="38.98" x2="102.17" y2="97.87" xlink:href="#linear-gradient"></lineargradient><lineargradient id="linear-gradient-7" x1="38.65" y1="23.55" x2="114.2" y2="82.43" xlink:href="#linear-gradient"></lineargradient><lineargradient id="linear-gradient-8" x1="-0.76" y1="74.11" x2="74.79" y2="133" xlink:href="#linear-gradient"></lineargradient></defs><g id="Layer_1-2"><g id="plain"><path class="cls-6" d="M29.65,96.53c-19.19,5.36,11.68,16.44,36.12,5.97-4-1.56-6.87-3.35-6.87-3.35-10.9,2.06-15.95,2.22-25.84,1.09-8.16-.94-3.4-3.71-3.4-3.71Z"></path><path class="cls-1" d="M62.84,86.07c-14.44,2.78-22.79,2.69-33.35,1.6-8.17-.85-2.82-4.8-2.82-4.8-21.14,7.02,11.77,14.98,41.31,6.34-3.14-1.11-5.13-3.13-5.13-3.13Z"></path><path class="cls-5" d="M74.16,25.5s-42.73,10.67-22.32,34.19c6.02,6.93-1.58,13.17-1.58,13.17,0,0,15.29-7.89,8.27-17.78-6.56-9.21-11.59-13.79,15.63-29.58Z"></path><path class="cls-7" d="M84.15,106.64s3.53,2.91-3.89,5.16c-14.1,4.27-58.71,5.56-71.09,.17-4.45-1.94,3.9-4.63,6.53-5.19,2.74-.59,4.3-.48,4.3-.48-4.95-3.49-32.01,6.85-13.74,9.82,49.82,8.08,90.82-3.64,77.9-9.47Z"></path><path class="cls-3" d="M67.03,76.31c2.39-1.63,5.7-3.05,5.7-3.05,0,0-9.42,1.68-18.81,2.47-11.49,.96-23.82,1.15-30.01,.33-14.65-1.96,8.03-7.35,8.03-7.35,0,0-8.81-.6-19.64,4.64-12.81,6.2,31.69,9.02,54.73,2.96Z"></path><path class="cls-2" d="M72.64,91.45c-.11,.29-.47,.62-.47,.62,31.27-8.22,19.78-28.98,4.82-23.72-1.31,.46-2,1.54-2,1.54,0,0,.83-.33,2.68-.72,7.56-1.58,18.39,10.12-5.03,22.29Z"></path><path class="cls-4" d="M46.21,68.48c-4.61-10.43-20.26-19.55,0-35.56C71.49,12.98,58.52,0,58.52,0c5.23,20.61-18.45,26.83-27,39.67-5.82,8.74,2.86,18.14,14.69,28.81Z"></path><path class="cls-8" d="M73.49,120.23c-19.19,3.61-42.85,3.19-56.89,.87,0,0,2.87,2.38,17.65,3.33,22.48,1.44,57-.8,57.82-11.44,0,0-1.57,4.03-18.58,7.23Z"></path></g></g></svg></div><p class="font-bold text-l mb-2 uppercase text-center text-gray-600">Java</p></div><div class="mb-6" style="opacity: 0; transform: translateY(64px) scale(1) translateZ(0px);"><div class="grid items-center w-36 h-36 rounded mx-2 md:mx-5 mb-2 bg-blue-gray shadow-md hover:scale-105 ease-linear duration-300 hover:shadow-custom-purple/30"><svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 118.74 124.56" class="mx-auto items-center scale-50 "><defs><style>.cls-1{fill:url(#linear-gradient-2);}.cls-2{fill:url(#linear-gradient);}</style><lineargradient id="linear-gradient" x1="1.54" y1="16.69" x2="108.54" y2="120.02" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#45b9e6"></stop><stop offset="1" stop-color="#8e87e9"></stop></lineargradient><lineargradient id="linear-gradient-2" x1="-5.88" y1="24.38" x2="101.12" y2="127.71" xlink:href="#linear-gradient"></lineargradient></defs><g id="Layer_1-2"><g><path class="cls-2" d="M46.02,54.04c.12-1.97-.2-3.94-.94-5.77-.69-1.18-2.01-1.83-3.37-1.68-1.35-.15-2.67,.5-3.35,1.68-.74,1.83-1.07,3.8-.94,5.77-.13,1.92,.19,3.84,.93,5.62,.72,1.14,2.03,1.76,3.37,1.6,1.34,.16,2.66-.46,3.39-1.6,.74-1.78,1.06-3.7,.93-5.62Zm0,0c.12-1.97-.2-3.94-.94-5.77-.69-1.18-2.01-1.83-3.37-1.68-1.35-.15-2.67,.5-3.35,1.68-.74,1.83-1.07,3.8-.94,5.77-.13,1.92,.19,3.84,.93,5.62,.72,1.14,2.03,1.76,3.37,1.6,1.34,.16,2.66-.46,3.39-1.6,.74-1.78,1.06-3.7,.93-5.62ZM82.61,17.63c0-2.69-.94-4.82-2.78-6.65-2.89-2.87-6.43-4.68-10.16-6.16-4.4-1.75-8.98-2.86-13.64-3.65C51.45,.4,46.83,0,42.2,0c-3.94,0-7.89,.3-11.81,.66-6.18,.56-12.21,1.93-18,4.19-3.43,1.34-6.67,3.04-9.38,5.59C1,12.32,0,14.58,0,17.38c.05,12.1,.02,24.2,.02,36.29,0,13.07,0,26.15,0,39.22,0,1.49,.35,2.9,1.13,4.19,1.28,2.11,3.12,3.64,5.17,4.93,4.71,2.95,9.91,4.66,15.29,5.92,4.01,.94,8.08,1.45,12.16,1.87,.34,.04,.68,0,1.05,0-.8-6.95,1.02-12.93,5.84-17.82,4.85-4.92,10.85-6.78,17.63-6.12,5.27-9.62,13.35-14.75,24.29-15.71v-1.45c0-17.02-.03-34.05,.03-51.08ZM27.93,63.84c-1.62,1.3-3.66,1.96-5.73,1.87-2.15-.05-4.3-.31-6.39-.8l-1.41-.25,.53-4.04h.27c2.21,.34,4.44,.54,6.67,.59,2.16,0,3.19-.85,3.19-2.6,.03-.56-.23-1.09-.68-1.41-.99-.58-2.07-1-3.19-1.24-2-.44-3.87-1.35-5.46-2.64-1.12-1.16-1.7-2.74-1.6-4.35-.14-1.97,.65-3.89,2.14-5.19,1.66-1.2,3.68-1.8,5.73-1.69,2.09,.05,4.16,.27,6.21,.65l1.44,.27-.39,4.07h-.29c-3.05-.34-5.24-.51-6.49-.51-3.29,0-3.29,1.6-3.29,2.08h0c-.02,.56,.27,1.08,.75,1.35,1.31,.67,2.68,1.2,4.09,1.6,1.73,.45,3.33,1.28,4.68,2.44,1,1.17,1.49,2.68,1.39,4.22,.17,2.09-.64,4.15-2.19,5.57Zm23.28-9.81c0,4.79-1.12,8.08-3.34,9.85l2.76,4.44-4.65,2.17-2.97-4.79c-.44,.03-.87,.03-1.31,0-3.48,0-5.96-.96-7.4-2.86-1.6-2.66-2.34-5.74-2.11-8.83-.22-3.13,.51-6.25,2.11-8.94,1.44-1.98,3.93-2.97,7.38-2.97s5.96,.99,7.38,2.97c1.62,2.7,2.36,5.82,2.14,8.96Zm16.55,11.27h-13.22v-22.82h5.08v18.27h8.15v4.55Zm1.54-47.57c-1.71,1.58-3.82,2.46-5.99,3.19-3.94,1.33-8.01,2.13-12.16,2.46-3.28,.27-6.57,.45-9.85,.68-6.39-.04-12.68-.7-18.88-2.2-2.57-.62-5.09-1.44-7.36-2.85-.82-.51-1.62-1.12-2.27-1.82-1.36-1.47-1.3-3.21,.04-4.71,1.2-1.34,2.73-2.16,4.35-2.85,3.73-1.6,7.66-2.4,11.66-2.97,4.68-.67,9.39-1.05,14.11-.87,3.65,.14,7.29,.52,10.93,.91,3.61,.38,7.13,1.21,10.53,2.51,1.79,.68,3.53,1.48,4.93,2.85,1.94,1.89,1.95,3.84-.03,5.68Zm-24.22,30.53c-.69-1.18-2.01-1.83-3.37-1.68-1.35-.15-2.67,.5-3.35,1.68-.74,1.83-1.07,3.8-.94,5.77-.13,1.92,.19,3.84,.93,5.62,.72,1.14,2.03,1.76,3.37,1.6,1.34,.16,2.66-.46,3.39-1.6,.74-1.78,1.06-3.7,.93-5.62,.12-1.97-.2-3.94-.94-5.77Z"></path><path class="cls-1" d="M112.08,104.44c-.98-.35-2.01-.6-3.13-.93,1.16-6.64,.05-12.89-3.61-18.57-3.69-5.73-8.89-9.44-15.52-11.05-5.11-1.25-10.19-.96-15.11,.96-6.92,2.69-11.74,7.58-14.66,14.45-.5-.09-.82-.14-1.14-.19-2.93-.48-5.84-.47-8.69,.43-8.47,2.67-13.8,11.16-12.36,19.99,1.29,7.95,8.1,14.89,17.38,14.96,18.29,.15,36.57,.04,54.86,.03,.48,0,.98-.07,1.43-.23,3.95-1.43,6.13-4.35,7.01-8.38,1-4.57-1.96-9.86-6.46-11.47Zm-1.35,16.89c-.88,.27-1.84,.35-2.76,.35-7.82,.03-15.64,0-23.46,.02-9.28,.03-18.57,.11-27.85,.13-3.09,0-6.08-.45-8.78-2.12-4.75-2.94-7.38-7.21-7.51-12.79-.17-7.26,4.69-13.38,11.7-15.06,2.95-.71,5.9-.48,8.77,.56,.26,.1,.53,.18,.92,.3,2.35-7.41,6.96-12.74,14.3-15.46,4.81-1.78,9.73-1.9,14.61-.33,6.14,1.98,10.71,5.89,13.61,11.68,2.91,5.79,2.97,11.8,1.09,17.97,1.12-.06,2.08-.13,3.04-.15,3.86-.11,7.47,3.39,7.54,7.43,.05,3.41-2.19,6.54-5.21,7.47Z"></path></g></g></svg></div><p class="font-bold text-l mb-2 uppercase text-center text-gray-600">SQL</p></div></div><h1 class="pt-8 md:text-3xl text-2xl sm:mb-8 mb-2 text-gray-900 font-bold uppercase text-center" style="opacity: 0; transform: translateY(64px) scale(1) translateZ(0px);"><span class="text-transparent text-mid-blue">Job</span><span class="font-light text-gray-900 "> Experience</span></h1><div data-accordion-component="Accordion" class="sm:pb-6 mt-10 mx-auto w-[70%]  "><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" class=" rounded mb-2 bg-gradient-to-r from-custom-blue to-[#8E87E9]" role="heading" aria-level="3"><div class="accordion__button" id="accordion__heading-:r1:" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-:r1:" role="button" tabindex="0" data-accordion-component="AccordionItemButton">xByte Technologies - Software Developer Intern:  May 2022 - Present</div></div><div data-accordion-component="AccordionItemPanel" class="accordion__panel" aria-hidden="true" id="accordion__panel-:r1:" hidden=""><p class=" text-sm "> Exercitation in fugiat est ut ad ea cupidatat ut incupidatat occaecat ut occaecat consequat est minim minim</p></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" class=" rounded mb-2 bg-gradient-to-r from-custom-blue to-[#8E87E9]" role="heading" aria-level="3"><div class="accordion__button" id="accordion__heading-:r3:" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-:r3:" role="button" tabindex="0" data-accordion-component="AccordionItemButton">xByte Technologies - Photo Specialist:  May 2021 - August 2021</div></div><div data-accordion-component="AccordionItemPanel" class="accordion__panel" aria-hidden="true" id="accordion__panel-:r3:" hidden=""><p class=" text-sm "> Exercitation in fugiat est ut ad ea cupidatat ut incupidatat occaecat ut occaecat consequat est minim minim</p></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" class=" rounded mb-2 bg-gradient-to-r from-custom-blue to-[#8E87E9]" role="heading" aria-level="3"><div class="accordion__button" id="accordion__heading-:r5:" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-:r5:" role="button" tabindex="0" data-accordion-component="AccordionItemButton">xByte Technologies - Graphic Design:  August 2017- August 2019</div></div><div data-accordion-component="AccordionItemPanel" class="accordion__panel" aria-hidden="true" id="accordion__panel-:r5:" hidden=""><p class=" text-sm ">Exercitation in fugiat est ut ad ea cupidatat ut incupidatat occaecat ut occaecat consequat est minim minim</p></div></div></div></div></section></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  
+
+<div data-react-modal-body-trap="" tabindex="0" style="position: absolute; opacity: 0;"></div><div class="ReactModalPortal"><div class="ReactModal__Overlay ReactModal__Overlay--after-open" style="position: fixed; inset: 0px; background-color: rgba(255, 255, 255, 0.75);"><div class="ReactModal__Content ReactModal__Content--after-open bg-transparent z-index-100" tabindex="-1" role="dialog" aria-modal="true"><div class=" w-screen h-screen  bg-transparent "><div class="w-full h-full flex justify-center bg-gray-900/80 items-center"><div class="md:w-[50%] w-[80%] min-h-[80%] max-h-fit bg-gray-900  rounded  shadow-lg" style="opacity: 1; transform: none;"><button type="button" class=" absolute p-4 text-gray-400 hover:text-gray-500  focus:outline-none focus:text-mid-blue"><span class="sr-only">Close menu</span><svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></button><div class="p-10 mt-5 lg:p-10 h-[100%] flex flex-col  max-w-7xl m-auto items-center"><div class="p-5 w-full font-light text-white bg-gray-700 rounded shadow-md "><h1 class="min-w-[50%]"><span class=" text-3xl uppercase font-bold text-transparent bg-clip-text bg-gradient-to-r from-custom-blue to-custom-purple">Company Dashboard</span></h1><h2 class="text-md uppercase font-bold text-gray-400">xByte Technologies</h2><p class="pt-4 pr-6"> Created a dashboard for a xByte Technologies that displays order information, sales, and other data. The dashboard is built using React and uses a variety of tables and KPIs to display information. The dashboard is also responsive and can be viewed on mobile devices. Also created a backend using Node.js and Express to handle the data and send it to the frontend. The data comes from oData sources. The backend also handles authentication and authorization.</p></div><div class=" scale-[90%] mt-10 relative"><img class="  hidden md:block  rounded-lg shadow-lg " src="./Michael Kisida_files/dashboard.508c729488763de2bc77.png" alt="Dashboard"><div class=" rounded-lg absolute top-0 left-0 h-full w-full bg-gray-900 transition-opacity duration-1000 ease-out rounded opacity-0 hover:opacity-50"></div></div></div></div></div></div></div></div></div></body></html>

@@ -49,6 +49,7 @@ module.exports = {
       }
     },
   },
-  plugins: [ require('tailwindcss-border-gradient-radius'),],
+  plugins: [ require('tailwindcss-border-gradient-radius'), ('tailwind-clip-path')],
+  
 }
 

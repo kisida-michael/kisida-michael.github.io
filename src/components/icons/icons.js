@@ -8,6 +8,8 @@ import { ReactComponent as xd} from './xd.svg';
 import { ReactComponent as cplusplus} from './cplusplus.svg';
 import { ReactComponent as nodejs} from './nodejs.svg';
 import { ReactComponent as sql} from './sql.svg';
+import { ReactComponent as github} from './github.svg';
+import { ReactComponent as eye} from './eye.svg';
 
 
 export default{
@@ -20,5 +22,7 @@ export default{
     xd,
     cplusplus,
     nodejs,
-    sql
+    sql,
+    github,
+    eye
 }

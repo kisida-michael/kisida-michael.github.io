@@ -12,6 +12,7 @@ export const Navbar = () => {
         <img src={mk} alt="mk" className="sm: pb-2md:pr-4 w-15 h-8" />
           <div className="w-full ml-5 flex font-medium justify-end">
             <a href="#projects" className="mr-5 hover:text-black">
+                
             Projects
           </a>
           <a href="#skills" className="mr-5 hover:text-black">
